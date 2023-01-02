@@ -23,7 +23,12 @@ function formatDate(date) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
-
+  if (mounth < 10) {
+    mounth = `0${mounth}`;
+  }
+  if (number < 10) {
+    number = `0${number}`;
+  }
   let updateDate = ` ${number}.${mounth}.${currentYear}`;
   let dateHtml = document.querySelector("#date");
   dateHtml.innerHTML = updateDate;

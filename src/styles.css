@@ -5,7 +5,6 @@ h1 {
   color: blue;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-top: 20px;
 }
 h2 {
   font-weight: bold;
@@ -19,16 +18,16 @@ a {
 a:hover {
   cursor: pointer;
 }
+#app {
+  width: 700px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 40px auto;
+}
 #descr {
   text-transform: capitalize;
 }
-.container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .date {
   font-size: 18px;
 }
