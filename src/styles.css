@@ -1,0 +1,46 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  color: blue;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+h2 {
+  font-weight: bold;
+  color: rgb(65, 60, 60);
+  /* padding: 5px 10px; */
+  text-transform: capitalize;
+}
+a {
+  color: aqua;
+}
+a:hover {
+  cursor: pointer;
+}
+#descr {
+  text-transform: capitalize;
+}
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.date {
+  font-size: 18px;
+}
+.degree {
+  color: blue;
+  font-size: 24px;
+}
+.list {
+  padding-left: 0;
+  list-style: none;
+}
+.wrap {
+  /* border-color: blueviolet; */
+  width: 200px;
+}
